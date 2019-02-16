@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/bt_red_activity_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:background="@color/red"
+        android:text="@string/red" />
+    <!--android:minWidth="40dp"-->
+
+    <Button
+        android:id="@+id/bt_orange1_activity_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_red_activity_main"
+        android:layout_toStartOf="@id/bt_red_activity_main"
+        android:background="@color/orange"
+        android:text="@string/orange" />
+
+    <Button
+        android:id="@+id/bt_orange2_activity_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_red_activity_main"
+        android:layout_toEndOf="@id/bt_red_activity_main"
+        android:background="@color/orange"
+        android:text="@string/orange" />
+
+    <Button
+        android:id="@+id/bt_yellow1_activity_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_orange1_activity_main"
+        android:layout_toStartOf="@id/bt_orange1_activity_main"
+        android:background="@color/yellow"
+        android:text="@string/yellow" />
+
+    <Button
+        android:id="@+id/bt_yellow2_activity_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_orange2_activity_main"
+        android:layout_toEndOf="@id/bt_orange2_activity_main"
+        android:background="@color/yellow"
+        android:text="@string/yellow" />
+
+    <Button
+        android:id="@+id/bt_green1_activity_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_yellow1_activity_main"
+        android:layout_toStartOf="@id/bt_yellow1_activity_main"
+        android:background="@color/green"
+        android:text="@string/green" />
+
+    <Button
+        android:id="@+id/bt_green2_activity_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_yellow2_activity_main"
+        android:layout_toEndOf="@id/bt_yellow2_activity_main"
+        android:background="@color/green"
+        android:text="@string/green" />
+
+    <Button
+        android:id="@+id/bt_blue1_activity_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_green1_activity_main"
+        android:layout_toEndOf="@id/bt_green1_activity_main"
+        android:background="@color/blue"
+        android:text="@string/blue" />
+
+    <Button
+        android:id="@+id/bt_blue2_activity_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_green2_activity_main"
+        android:layout_toStartOf="@id/bt_green2_activity_main"
+        android:background="@color/blue"
+        android:text="@string/blue" />
+
+    <Button
+        android:id="@+id/bt_indigo1_activity_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_blue1_activity_main"
+        android:layout_toEndOf="@id/bt_blue1_activity_main"
+        android:background="@color/indigo"
+        android:text="@string/indigo" />
+
+    <Button
+        android:id="@+id/bt_indigo2_activity_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_blue2_activity_main"
+        android:layout_toStartOf="@id/bt_blue2_activity_main"
+        android:background="@color/indigo"
+        android:text="@string/indigo" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_indigo1_activity_main"
+        android:layout_toEndOf="@id/bt_indigo1_activity_main"
+        android:background="@color/violet"
+        android:text="@string/violet" />
+
+
+</RelativeLayout>

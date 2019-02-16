@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MCLab4</string>
+    <string name="food">Food:</string>
+    <string name="shopping">Shopping:</string>
+    <string name="calculate_expense">Calculate Expense</string>
+    <string name="telephone">Telephone:</string>
+    <string name="fuel">Fuel:</string>
+</resources>

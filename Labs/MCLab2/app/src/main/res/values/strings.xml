@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MC Lab2</string>
+    <string name="name">Name</string>
+    <string name="father_name">Father Name</string>
+    <string name="address">address</string>
+    <string name="age">age</string>
+    <string name="gender">Gender</string>
+    <string name="dob">DOB</string>
+    <string name="city">City</string>
+    <string name="district">District</string>
+    <string name="phone">Phone No.</string>
+    <string name="email">Email</string>
+    <string name="done">Done</string>
+    <string name="department">Department</string>
+</resources>
